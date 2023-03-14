@@ -5,9 +5,11 @@ import './top.css'
 import {BiSearchAlt} from 'react-icons/bi'
 import {TbMessageCircle} from 'react-icons/tb'
 import {MdOutlineNotificationsNone} from 'react-icons/md'
+import {BsArrowRightShort} from 'react-icons/bs'
 
 // Imported Image =====>
 import img from '../../../Assets/user (3).jpg'
+import img2 from '../../../Assets/image (2).png'
 import video from '../../../Assets/video.mp4'
 
 const Top = () => {
@@ -49,6 +51,48 @@ const Top = () => {
             <video src={video} autoPlay loop muted></video>
           </div>
         </div>
+
+        <div className="leftCard flex">
+          <div className="main flex">
+
+            <div className="textDiv">
+              <h1>My Stat</h1>
+
+              <div className="flex">
+                <span>
+                  Today <br/> <small>4 Orders</small>
+                </span>
+                <span>
+                  This Month <br/> <small>175 Orders</small>
+                </span>
+              </div>
+
+              <span className="flex link">
+                Go to my orders <BsArrowRightShort className="icon"/>
+              </span>
+
+            </div>
+
+            <div className="imgDiv">
+              <img src={img2} alt="Img name" />
+            </div>
+
+            {/* We shall use this card later ... */}
+            {/* <div className="sideBarCard">
+              <BsQuestionCircle className="icon"/>
+              <div className="cardContent">
+                <div className="circle1"></div>
+                <div className="circle2"></div>
+
+                <h3>Help Center</h3>
+                <p>Having trouble in Planti, please contact us for more questions.</p>
+                <button className='btn'>Go to help center</button>
+              </div>
+            </div> */}
+
+          </div>
+        </div>
+
       </div>
     </div>
   )

@@ -67,7 +67,6 @@ const Sidebar = () => {
         </ul>
       </div>
 
-
       <div className="settingsDiv">
         <h3 className="divTitle">
           SETTINGS
