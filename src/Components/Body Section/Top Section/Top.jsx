@@ -28,7 +28,7 @@ const Top = () => {
           <TbMessageCircle className="icon"/>
           <MdOutlineNotificationsNone className="icon"/>
           <div className="adminImage">
-            <img src={img} alt="Admin Image" />
+            <img src={img} alt="Admin Img" />
           </div>
         </div>
 
