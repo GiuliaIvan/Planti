@@ -12,7 +12,7 @@ import video from '../../../Assets/video.mp4'
 
 const Top = () => {
   return (
-    <div className='topSection'>
+    <div className="topSection">
       <div className="headerSection flex">
         <div className="title">
           <h1>Welcome to Planti.</h1>
