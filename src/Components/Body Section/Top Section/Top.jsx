@@ -6,6 +6,7 @@ import {BiSearchAlt} from 'react-icons/bi'
 import {TbMessageCircle} from 'react-icons/tb'
 import {MdOutlineNotificationsNone} from 'react-icons/md'
 import {BsArrowRightShort} from 'react-icons/bs'
+import {BsQuestionCircle} from 'react-icons/bs'
 
 // Imported Image =====>
 import img from '../../../Assets/user (3).jpg'
@@ -78,7 +79,7 @@ const Top = () => {
             </div>
 
             {/* We shall use this card later ... */}
-            {/* <div className="sideBarCard">
+            <div className="sideBarCard">
               <BsQuestionCircle className="icon"/>
               <div className="cardContent">
                 <div className="circle1"></div>
@@ -88,7 +89,7 @@ const Top = () => {
                 <p>Having trouble in Planti, please contact us for more questions.</p>
                 <button className='btn'>Go to help center</button>
               </div>
-            </div> */}
+            </div>
 
           </div>
         </div>
