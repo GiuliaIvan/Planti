@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Planti/static/css/main.88e43e78.css",
+    "main.js": "/Planti/static/js/main.2cd901e7.js",
+    "static/media/video.mp4": "/Planti/static/media/video.4505984242627166b388.mp4",
+    "static/media/user (1).jpg": "/Planti/static/media/user (1).da5e118e9c5ea49b2adf.jpg",
+    "static/media/image (2).png": "/Planti/static/media/image (2).b0aba81b5b8e8612bb55.png",
+    "static/media/image (1).png": "/Planti/static/media/image (1).24daec4780212df1f0f8.png",
+    "static/media/logo.png": "/Planti/static/media/logo.c45a960633e72cf0c55e.png",
+    "static/media/user (2).jpg": "/Planti/static/media/user (2).47d4fc7533740df50331.jpg",
+    "static/media/user (3).jpg": "/Planti/static/media/user (3).b5f2904ed6be1be34b95.jpg",
+    "index.html": "/Planti/index.html",
+    "main.88e43e78.css.map": "/Planti/static/css/main.88e43e78.css.map",
+    "main.2cd901e7.js.map": "/Planti/static/js/main.2cd901e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88e43e78.css",
+    "static/js/main.2cd901e7.js"
+  ]
+}
